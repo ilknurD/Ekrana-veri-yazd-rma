@@ -16,5 +16,13 @@ namespace Ekrana_veri_yazdırma
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string gelenveri;
+            gelenveri = textBox1.Text;
+            label1.Text = gelenveri;
+
+        }
     }
 }
